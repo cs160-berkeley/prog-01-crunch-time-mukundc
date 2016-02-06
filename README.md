@@ -12,6 +12,14 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/first.png" height="400" alt="Screenshot"/>
+<img src="screenshots/second.png" height="400" alt="Screenshot"/>
+<img src="screenshots/third.png" height="400" alt="Screenshot"/>
+<img src="screenshots/fourth.png" height="400" alt="Screenshot"/>
+<img src="screenshots/fifth.png" height="400" alt="Screenshot"/>
+<img src="screenshots/sixth.png" height="400" alt="Screenshot"/>
+<img src="screenshots/seventh.png" height="400" alt="Screenshot"/>
+<img src="screenshots/eight.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ninth.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
