@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Start a timer and receive notificatons to keep you motivated throughout!"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/editTime"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint="Enter Duration In Minutes"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pink"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="How often would you like motivational notifications? "
+        android:id="@+id/textView3"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Spinner
+        android:id="@+id/notification_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:backgroundTint="@color/pink"
+        android:paddingTop="15dp"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="Start"
+        android:id="@+id/startTime" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="Stop"
+        android:visibility="gone"
+        android:id="@+id/stopTime" />
+
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="72sp"
+        android:text="0:00"
+        android:id="@+id/timer"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
