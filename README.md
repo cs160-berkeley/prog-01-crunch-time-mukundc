@@ -1,10 +1,10 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+The application is an exercise to calorie converter and a calorie to exercise converter. A user choose a particular exercise and the number of reps/minutes to find out the number of calories burned as well as an equivalent amount of other exercises to burn the same number of calories. A user can also enter how many calories they want to burn and get a list of exercises and corresponding reps/minutes to burn that many calories. Finally, a user can start a timer for his workout and receive motivational message notificatoins along the way.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Mukund Chillakanti ([mukundc@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
@@ -15,8 +15,3 @@ See [your demo video title here] (https://link_to_your_video)
 <img src="screenshots/main.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Any other support
-
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
